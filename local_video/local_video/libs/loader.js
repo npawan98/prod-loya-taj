@@ -26,6 +26,7 @@ export const loadVideo = (path) => {
     const video = document.createElement("video");
     //video.addEventListener('loadeddata', () => {
     video.addEventListener('loadedmetadata', () => {
+      video.setAttribute('id', 'ios-video');
       video.setAttribute('autoplay', '');
       video.setAttribute('playsinline', '');
       video.setAttribute('controls', false);
