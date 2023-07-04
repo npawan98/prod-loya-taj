@@ -26,7 +26,9 @@ export const loadVideo = (path) => {
     const video = document.createElement("video");
     //video.addEventListener('loadeddata', () => {
     video.addEventListener('loadedmetadata', () => {
+      video.setAttribute('autoplay', '');
       video.setAttribute('playsinline', '');
+      video.setAttribute('controls', false);
       resolve(video);
     });
     video.src = path;
