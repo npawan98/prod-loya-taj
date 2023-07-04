@@ -11,8 +11,8 @@ const createYoutube = () => {
     const onYouTubeIframeAPIReady = () => {
       const player = new YT.Player('player', {
 	videoId: 't8Ap1tl0oBM',
-  height: '420',
-  width: '204',
+  height: '1980',
+  width: '1040',
   autoplay: true,
 	events: {
 	  onReady: () => {
