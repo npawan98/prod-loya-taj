@@ -10,7 +10,7 @@ const createYoutube = () => {
 
     const onYouTubeIframeAPIReady = () => {
       const player = new YT.Player('player', {
-	videoId: 'es4x5R-rV9s',
+	videoId: 't8Ap1tl0oBM',
   height: '690',
   width: '1040',
   autoplay: true,
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const mindarThree = new window.MINDAR.IMAGE.MindARThree({
       container: document.body,
-      imageTargetSrc: './targets.mind',
+      imageTargetSrc: './taj.mind',
     });
     const {renderer, cssRenderer, scene, cssScene, camera} = mindarThree;
 
